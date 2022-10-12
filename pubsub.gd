@@ -7,7 +7,7 @@ extends Node2D
 #------------
 # To use an external file for credentials, write a file path string in cred_file, e.g. C:\Directory\File.txt. If you do not use an external file, simply leave cred_file blank.
 # The format of the external file being used is a txt file using json:
-# {"the_auth":"<your token>", "the_listener":"<your app name>", "the_channel":"<your channel>",}
+# {"the_auth":"<your token>", "the_listener":"<your app name>", "the_channel":"<your channel id>",}
 export(String) var cred_file := "" 
 # If the cred_file variable is blank, you must enter the needed info into the variables.
 export(String) var the_auth:String = ""
