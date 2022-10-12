@@ -8,7 +8,7 @@ Create a Twitch Application: https://dev.twitch.tv/docs/authentication/register-
 Generate Twitch oauth tokens from your app: https://twitchapps.com/tokengen/ using the required scopes: https://dev.twitch.tv/docs/pubsub#topics
 
 ## Step 3
-Create your credential file:
+Create your credential json file:
 
 ```
 {"the_auth":"<your token>", "the_listener":"<your app name>", "the_channel":"<your channel>",}
@@ -33,4 +33,4 @@ Connect your custom code to the signals.
 ![pubsub signals](https://github.com/mightymochi/Godot_Twitch_PubSub/blob/main/pubsub_signals.PNG)
 
 ## Step 8
-Run program. If everyting was set up and entered properly you should be able to get a feed of bits, points, and subs.
+Run program. If everything was set up and entered properly you should be able to get a feed of bits, points, and subs.
