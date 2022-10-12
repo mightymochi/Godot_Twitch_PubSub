@@ -20,7 +20,7 @@ OR save the info for variables in the script.
 In your Godot project, attach the https://github.com/mightymochi/Godot_Twitch_PubSub/blob/main/pubsub.gd script to a Node2D
 
 ## Step 5
-Enter the file path of your credentials into the Cred File, or enter the information into the individual variable entries.
+Enter the file path of your credentials into the Cred File, e.g. C:\Directory\File.txt, or enter the information into the individual variable entries.
 
 ![pubsub variables](https://github.com/mightymochi/Godot_Twitch_PubSub/blob/main/pub_sub_variables.PNG)
 
