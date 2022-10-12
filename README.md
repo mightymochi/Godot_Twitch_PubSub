@@ -11,7 +11,7 @@ Generate Twitch oauth tokens from your app: https://twitchapps.com/tokengen/ usi
 Create your credential json file:
 
 ```
-{"the_auth":"<your token>", "the_listener":"<your app name>", "the_channel":"<your channel>",}
+{"the_auth":"<your token>", "the_listener":"<your app name>", "the_channel":"<your channel id>",}
 ```
 
 OR save the info for variables in the script.
