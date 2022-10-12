@@ -1,6 +1,4 @@
 # Godot Twitch PubSub
-Connect your Godot app to the Twitch PubSub
-
 If you have ever wanted to connect your Godot application to Twitch channel points, bits, and subscriptions, this is some code that can help you.
 
 ## Step 1
