@@ -17,7 +17,7 @@ Create your credential file:
 OR save the info for variables in the script.
 
 ## Step 4
-In your Godot project, attached the https://github.com/mightymochi/Godot_Twitch_PubSub/blob/main/pubsub.gd script to a Node2D
+In your Godot project, attach the https://github.com/mightymochi/Godot_Twitch_PubSub/blob/main/pubsub.gd script to a Node2D
 
 ## Step 5
 Enter the file path of your credentials into the Cred File, or enter the information into the individual variable entries.
