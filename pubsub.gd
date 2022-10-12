@@ -41,6 +41,8 @@ func _init():
 	ConnectDelay.one_shot = false
 	Ping_Timer.wait_time = 59.0
 	Ping_Timer.connect("timeout", self, "_on_Ping_Timer_timeout")
+	websocket.verify_ssl = true
+	user_regex.compile("(?<=!)[\\w]*(?=@)")
 	if delay_connection:
 		add_child(ConnectDelay)
 		ConnectDelay.autostart = true
@@ -49,8 +51,6 @@ func _init():
 		ConnectDelay.connect("timeout", self, "_on_ConnectDelay_timeout")
 	else:
 		make_connections()
-	websocket.verify_ssl = true
-	user_regex.compile("(?<=!)[\\w]*(?=@)")
 
 func load_creds(fileloc):
 	var file = File.new()
