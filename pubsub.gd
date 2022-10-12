@@ -223,7 +223,6 @@ func proc_subs(payload):
 
 func proc_bits(payload):
 	var m_data = payload["data"]["message"]["data"]
-	print(m_data)
 	var is_anonymous = false
 	var the_user = "Anonymous"
 	var the_bits = 0
